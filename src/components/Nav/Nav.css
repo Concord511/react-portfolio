@@ -1,0 +1,23 @@
+.nav__listContainer {
+  display: flex;
+  vertical-align: middle;
+}
+
+.nav__li {
+  background-color: beige;
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 15px;
+}
+
+.nav__li:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.nav__isActive {
+  background-color: rgb(245, 215, 160);
+  color: blue;
+}

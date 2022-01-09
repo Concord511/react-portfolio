@@ -1,0 +1,10 @@
+.header__container {
+  padding-left: 15px;
+  border-bottom: 10px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  padding-top: 10px;
+}
