@@ -5,7 +5,7 @@ import './About.css';
 function About() {
     return (
         <div className="about__sectional">
-            <section>
+            <article>
                 <h1 id="about">About Me:</h1>
                 <img src={coverPhoto} style={{ maxWidth: "100%", maxHeight: "400px" }} alt="cover" />
                 <div className="about__textContainer">
@@ -19,7 +19,7 @@ function About() {
                     I am looking to build my skills in Software and Web Development. Having studied Software Engineering at Michigan Technological University I found my passion in the innate problem solving that is coding and bug-crushing. I enjoy and work well with others and look forward to joining a collaborative, talented team of developers.
                     </p>
                 </div>
-            </section>
+            </article>
 
             <article className="about__certificationsContainer">
                 <h2 >Certs:</h2>
