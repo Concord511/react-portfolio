@@ -7,6 +7,10 @@
   border-radius: 10px;
 }
 
+img {
+  border-radius: 15px;
+}
+
 .about__textContainer {
   text-align: left;
   margin: 10px;
@@ -49,7 +53,6 @@
   }
 
   .about__pIndent {
-    text-indent: 10px;
     line-height: 1.6;
   }
 }

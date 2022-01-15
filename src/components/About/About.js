@@ -7,7 +7,6 @@ function About() {
         <div className="about__sectional">
             <article>
                 <h2 id="about">About Me:</h2>
-                <img src={coverPhoto} style={{ maxWidth: "100%", maxHeight: "400px" }} alt="cover" />
                 <div className="about__textContainer">
                     <p className="about__pIndent">
                     I am a seasoned IT professional with more than 10 years of IT experience. I bring a wide array of skills, ranging from Scripting, Web Development (HTML/CSS/JavaScript), Technical Support, System and Network Administration, Infrastructure/Deployment Project Management, and I am a certified Profession SCRUM Master. I currently work as a Systems Technician for Uline in Hudson, WI. I am working towards getting my certification in Full Stack Web Development from the University of Minnesota College of Continuing and Professional Studies.
@@ -38,6 +37,9 @@ function About() {
                     </p>
                 </div>
             </article>
+
+            <img src={coverPhoto} style={{ maxWidth: "100%", maxHeight: "400px" }} alt="cover" />
+            
         </div>
     )
 }

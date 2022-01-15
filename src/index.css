@@ -1,13 +1,12 @@
 :root {
-  --primary-text: whitesmoke;
-  --secondary-text: #bfc0c0;
-  --bg-color: #392f5a;
   --section-bg: #36558f;
-  --border-color: #ffd700;
   --app-bg: #648767;
 }
 
 body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -21,6 +20,7 @@ body {
 
 .app__appBody {
   min-height: 100vh;
+  width: 1024px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -32,6 +32,7 @@ code {
 }
 
 h1 {
+  margin: 15px 0 0 0;
   font-size: 56px;
 }
 
@@ -46,6 +47,10 @@ h2 {
     padding: 10px 0 6px 0;
     font-size: 6vw;
     align-self: center;
+  }
+
+  .app__appBody {
+    width: auto;
   }
 }
 

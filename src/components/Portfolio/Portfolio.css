@@ -1,0 +1,57 @@
+.portfolio__container {
+  background-color: var(--section-bg);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.portfolio__appContainer {
+    background-color: var(--app-bg);
+  border: 5px solid black;
+  border-radius: 22px;
+  margin: 10px;
+  width: 480px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio__appLinks {
+  border-top: 5px solid black;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio__projectImage {
+    border: 5px solid yellow;
+  object-fit: cover;
+  object-position: top;
+  width: 470px;
+  height: 385px;
+}
+
+.portfolio__appTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.portfolio__appSubtitle {
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+}
+
+.portfolio__gitLink {
+  color: blue;
+  text-decoration: none;
+}

@@ -8,7 +8,7 @@ function Header(props) {
 
     return (
         <div className="header__container">
-            <h1>Ian Remington Holmes</h1>
+            <h1>Ani Remington Holmes</h1>
             <Nav
                 navPoints={navPoints}
                 setCurrentNav={setCurrentNav}
