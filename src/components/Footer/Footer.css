@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 10px solid black;
+}
+
+.footer__linkContainer {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.footer__links {
+  padding: 20px;
+}

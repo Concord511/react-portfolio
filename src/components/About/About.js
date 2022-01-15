@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="about__sectional">
             <article>
-                <h1 id="about">About Me:</h1>
+                <h2 id="about">About Me:</h2>
                 <img src={coverPhoto} style={{ maxWidth: "100%", maxHeight: "400px" }} alt="cover" />
                 <div className="about__textContainer">
                     <p className="about__pIndent">
@@ -22,18 +22,18 @@ function About() {
             </article>
 
             <article className="about__certificationsContainer">
-                <h2 >Certs:</h2>
+                <h2>Certifications:</h2>
                 <div>
                     <p className="about__cert">
                         Full Stack Web Development
                     </p>
-                    <p>
+                    <p className="about__certDescription">
                         University of Minnesota College of Continuing and Professional Studies
                     </p>
                     <p className="about__cert">
                         Certified Professional SCRUM Master I
                     </p>
-                    <p>
+                    <p className="about__certDescription">
                         Scrum.org
                     </p>
                 </div>

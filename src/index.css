@@ -19,7 +19,42 @@ body {
   font-family: "Russo One", sans-serif;
 }
 
+.app__appBody {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    margin: 0;
+    padding: 10px 0 6px 0;
+    font-size: 6vw;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
 }

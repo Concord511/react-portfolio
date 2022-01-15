@@ -9,12 +9,13 @@ function App() {
     {name: 'About'},
     {name: 'Portfolio'},
     {name: 'Contact'},
+    {name: 'Resume'}
   ]);
   
   const [currentNav, setCurrentNav] = useState(navPoints[0]);
   
   return (
-    <div>
+    <div className="app__appBody">
       <Header navPoints={navPoints} currentNav={currentNav} setCurrentNav={setCurrentNav}/>
       <Page currentNav={currentNav}/>
       <Footer />

@@ -1,14 +1,14 @@
 import React from 'react';
+import './Footer.css';
 
 function Footer() {
     return (
-        <footer>
-            <div>
-                <a href="https://github.com/Concord511">GitHub</a>
-                <a href="www.linkedin.com/in/ian-ani-holmes-486205117">LinkedIn</a>
-                <a href="../../assets/Ian-Holmes-Resume.pdf" download="Ian Holmes Resume">Resume</a>
+        <footer className="footer">
+            <div className="footer__linkContainer">
+                <a className="footer_links" href="https://github.com/Concord511">GitHub</a>
+                <a className="footer_links" href="www.linkedin.com/in/ian-ani-holmes-486205117">LinkedIn</a>
+                <a className="footer_links" href="https://stackoverflow.com/users/16354246/ian-remington-holmes">Stack Overflow</a>
             </div>
-            Dungeon Bohemia ©
         </footer>
     )
 }

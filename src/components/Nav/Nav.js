@@ -14,9 +14,9 @@ function Nav(props) {
             <ul className="nav__listContainer">
                 {navPoints.map((navPoint) => (
                     <li key={navPoint.name} className={`nav__li ${navPoint.name === currentNav.name && 'nav__isActive'}`}>
-                        <span onClick ={() => setCurrentNav(navPoint)}>
-                            {navPoint.name}
-                        </span>
+                            <span className="nav__link" onClick ={() => setCurrentNav(navPoint)}>
+                                {navPoint.name}
+                            </span>
                     </li>
                 ))}
             </ul>
