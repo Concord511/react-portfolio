@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.edb7f896.css",
-    "main.js": "/react-portfolio/static/js/main.5fd0f6ce.js",
+    "main.css": "/react-portfolio/static/css/main.ec4d6b41.css",
+    "main.js": "/react-portfolio/static/js/main.c02e40b7.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/The-Writers-Bloc.png": "/react-portfolio/static/media/The-Writers-Bloc.e48458942158eac55b69.png",
     "static/media/Quote-Battle.jpg": "/react-portfolio/static/media/Quote-Battle.87ab4cc157993b22a83f.jpg",
@@ -14,12 +14,12 @@
     "static/media/coverPhoto.jpg": "/react-portfolio/static/media/coverPhoto.ff10bda82b7e8cb5c9b5.jpg",
     "static/media/Password-Generator.jpg": "/react-portfolio/static/media/Password-Generator.febefc35f7438d5b6538.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.edb7f896.css.map": "/react-portfolio/static/css/main.edb7f896.css.map",
-    "main.5fd0f6ce.js.map": "/react-portfolio/static/js/main.5fd0f6ce.js.map",
+    "main.ec4d6b41.css.map": "/react-portfolio/static/css/main.ec4d6b41.css.map",
+    "main.c02e40b7.js.map": "/react-portfolio/static/js/main.c02e40b7.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edb7f896.css",
-    "static/js/main.5fd0f6ce.js"
+    "static/css/main.ec4d6b41.css",
+    "static/js/main.c02e40b7.js"
   ]
 }
