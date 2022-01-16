@@ -1,9 +1,16 @@
 .portfolio__container {
   border-radius: 15px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.portfolio__projectsWrapper {
+  min-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio__appContainer {

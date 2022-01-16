@@ -40,7 +40,7 @@ function Contact() {
 
     return (
         <section className="contact__formContainer">
-            <h1 className="contact__h1">Contact:</h1>
+            <h2 className="contact__h1">Contact:</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="contact__inputContainer">
                     <label htmlFor="name">Name:</label>
