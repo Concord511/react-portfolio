@@ -16,6 +16,7 @@ form {
 
 .contact__errorText {
   color: red;
+  text-shadow: 0 0 10px black;
 }
 
 .contact__submitButton {

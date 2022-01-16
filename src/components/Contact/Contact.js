@@ -11,7 +11,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-        console.log('Handle Form', formState);
+        // console.log('Handle Form', formState);
         setErrorMessage('Your information has been submitted.');
     }
   };
@@ -34,7 +34,7 @@ function Contact() {
     }
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
+      // console.log('Handle Form', formState);
     }
   };
 
