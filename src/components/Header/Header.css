@@ -1,8 +1,19 @@
 .header__container {
-  border-bottom: 10px solid black;
-  border-radius: 5px;
+  background-image: url('../../assets/cover/Nebula-cloud.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid gold;
+  border-radius: 75px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-shadow: 0 0 5px gold;
+}
+
+@media screen and (max-width: 425px) {
+  .header__container {
+    max-width: 425px;
+  }
 }

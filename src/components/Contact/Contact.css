@@ -4,6 +4,7 @@ form {
 }
 
 .contact__formContainer {
+  margin: 10px;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -13,12 +14,39 @@ form {
   align-self: flex-start;
 }
 
+.contact__errorText {
+  color: red;
+}
+
+.contact__submitButton {
+  background: none;
+  color: inherit;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.contact__submitButton:active {
+  background-color: black;
+  color: white;
+}
+
 .contact__inputContainer {
   margin: 10px;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
   width: 100%;
+}
+
+.contact__inputContainer input,
+textarea {
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -37,6 +65,10 @@ form {
 
   .contact__h1 {
     align-self: center;
+  }
+
+  .contact__submitButton {
+    margin: 5px;
   }
 }
 

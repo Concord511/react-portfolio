@@ -1,6 +1,10 @@
 .footer {
-  border-top: 10px solid black;
-  border-radius: 5px;
+  background-image: url("../../assets/cover/Nebula-cloud.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  border: 3px solid gold;
+  border-radius: 75px;
 }
 
 .footer__linkContainer {
@@ -10,5 +14,21 @@
 }
 
 .footer__links {
-  padding: 20px;
+  font-size: 14px;
+  background-color: grey;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer__links:hover {
+  background-color: grey;
+}
+
+.footer__links:active {
+  border: 3px solid gold;
+  background-color: black;
+  color: white;
 }

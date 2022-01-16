@@ -21,21 +21,22 @@ nav {
 
 .nav__link {
   font-size: 1.7vw;
-  background-color: beige;
+  background-color: grey;
   padding: 5px 15px;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 10px;
   max-height: 26px;
 }
 
 .nav__link:hover {
-  background-color: black;
-  color: whitesmoke;
+  background-color: grey;
 }
 
-.nav__isActive {
-  background-color: rgb(245, 215, 160);
-  color: blue;
+.nav__isActive, .nav__link:active {
+  text-shadow: none;
+  border: 3px solid gold;
+  background-color: black;
+  color: gold;
 }
 
 @media screen and (max-width: 1024px) {
@@ -60,6 +61,10 @@ nav {
 
 @media screen and (max-width: 425px) {
   .nav__listContainer {
-    flex-wrap: wrap;
+    max-width: 425px;
+  }
+
+  .nav__li {
+    margin: 3px;
   }
 }

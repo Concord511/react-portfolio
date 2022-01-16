@@ -1,6 +1,9 @@
 :root {
   --section-bg: #36558f;
   --app-bg: #648767;
+  background-image: url('../src/assets/cover/Hubble-ultra-deep-field.jpg');
+  background-size: stretch;
+  background-position: center;
 }
 
 body {
@@ -13,8 +16,6 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
-  color: var(--light);
   font-family: "Russo One", sans-serif;
 }
 
@@ -29,6 +30,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+main {
+  background-color: var(--section-bg);
+  border-radius: 15px;
 }
 
 h1 {
