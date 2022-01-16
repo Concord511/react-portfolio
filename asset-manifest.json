@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.bc477df4.css",
-    "main.js": "/react-portfolio/static/js/main.20186f61.js",
+    "main.js": "/react-portfolio/static/js/main.4a21d019.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/The-Writers-Bloc.png": "/react-portfolio/static/media/The-Writers-Bloc.e48458942158eac55b69.png",
     "static/media/Quote-Battle.jpg": "/react-portfolio/static/media/Quote-Battle.87ab4cc157993b22a83f.jpg",
@@ -9,17 +9,17 @@
     "static/media/Grocery-List.jpg": "/react-portfolio/static/media/Grocery-List.eefb861eb3eaf62456a2.jpg",
     "static/media/Nebula-cloud.jpg": "/react-portfolio/static/media/Nebula-cloud.6a4ea80ae05c0181d6ce.jpg",
     "static/media/JSQ.jpg": "/react-portfolio/static/media/JSQ.64644a1ecb7f0e84ee85.jpg",
-    "static/media/Ani-Holmes-Resume.pdf": "/react-portfolio/static/media/Ani-Holmes-Resume.5af48d537dc90012c00d.pdf",
+    "static/media/Ani-Holmes-Resume.pdf": "/react-portfolio/static/media/Ani-Holmes-Resume.5ef495410df2e7626ed2.pdf",
     "static/media/Hubble-ultra-deep-field.jpg": "/react-portfolio/static/media/Hubble-ultra-deep-field.b84b23e33c5c1503b823.jpg",
     "static/media/coverPhoto.jpg": "/react-portfolio/static/media/coverPhoto.ff10bda82b7e8cb5c9b5.jpg",
     "static/media/Password-Generator.jpg": "/react-portfolio/static/media/Password-Generator.febefc35f7438d5b6538.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.bc477df4.css.map": "/react-portfolio/static/css/main.bc477df4.css.map",
-    "main.20186f61.js.map": "/react-portfolio/static/js/main.20186f61.js.map",
+    "main.4a21d019.js.map": "/react-portfolio/static/js/main.4a21d019.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc477df4.css",
-    "static/js/main.20186f61.js"
+    "static/js/main.4a21d019.js"
   ]
 }
