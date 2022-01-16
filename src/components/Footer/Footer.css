@@ -32,3 +32,9 @@
   background-color: black;
   color: white;
 }
+
+@media screen and (max-width: 425px) {
+  .footer__links {
+    padding: 5px;
+  }
+}

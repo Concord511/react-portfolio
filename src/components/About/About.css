@@ -43,6 +43,11 @@ img {
 }
 
 @media screen and (max-width: 425px) {
+  .about__sectional {
+    margin: 5px;
+    padding: 5px;
+  }
+
   h2 {
     font-size: 36px;
   }
@@ -52,6 +57,16 @@ img {
   }
 
   .about__pIndent {
+    margin: 0;
     line-height: 1.6;
+  }
+
+  .about__textContainer {
+    border: none;
+    margin: 0;
+  }
+
+  .about__certificationsContainer {
+    margin: 0;
   }
 }

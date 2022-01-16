@@ -67,4 +67,8 @@ nav {
   .nav__li {
     margin: 3px;
   }
+
+  .nav__link {
+    padding: 5px 9px;
+  }
 }
