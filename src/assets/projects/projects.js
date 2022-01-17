@@ -1,7 +1,7 @@
 const projects = [
     {
         name: "The Writer's Bloc",
-        technologies: "MySQL/Express.js/JavaScript/Node.js",
+        technologies: "Full Stack",
         image: "The-Writers-Bloc.png",
         projectUrl: "https://cbc-my-book.herokuapp.com/",
         githubUrl: "https://github.com/Bycicleace/MyBook"
