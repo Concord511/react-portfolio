@@ -73,7 +73,7 @@
   .portfolio__container {
     width: 100vw;
   }
-  
+
   .portfolio__projectsWrapper {
     min-width: auto;
     flex-direction: column;
@@ -127,6 +127,6 @@
   }
 
   .portfolio__appSubtitle {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
