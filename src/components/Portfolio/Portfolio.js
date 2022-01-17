@@ -11,7 +11,7 @@ function Portfolio() {
                     {projects.map(project => (
                         <div className="portfolio__appContainer" key={project.name}>
                             <a href={project.projectUrl} target="_blank" rel="noreferrer">
-                            <img src={require('../../assets/projects/images/' + project.image)} className="portfolio__projectImage" alt={project.name} />
+                                <img src={require('../../assets/projects/images/' + project.image)} className="portfolio__projectImage" alt={project.name} />
                             </a>
                             <div className="portfolio__appLinks">
                                 <a className="portfolio__appTitle" href={project.projectUrl} target="_blank" rel="noreferrer">
