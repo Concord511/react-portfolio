@@ -1,7 +1,7 @@
 :root {
   --section-bg: #36558f;
   --app-bg: #648767;
-  background-image: url('../src/assets/cover/Hubble-ultra-deep-field.jpg');
+  background-image: url("../src/assets/cover/Hubble-ultra-deep-field.jpg");
   background-size: stretch;
   background-position: center;
 }
@@ -71,6 +71,10 @@ h2 {
 }
 
 @media screen and (max-width: 425px) {
+  h1 {
+    font-size: 6vw;
+  }
+
   .app__appBody {
     width: 100vw;
   }
