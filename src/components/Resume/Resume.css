@@ -5,12 +5,16 @@
   width: 1024px;
 }
 
+.resume__title {
+  font-size: 4vw;
+}
+
 .resume__downloadLink {
   margin-left: 10px;
-  color: blue;
+  color: deepskyblue;
   text-decoration: none;
   vertical-align: middle;
-  font-size: 30px;
+  font-size: 4vw;
 }
 
 iframe {
@@ -23,11 +27,26 @@ iframe {
 
 @media screen and (max-width: 1024px) {
   .resume__title {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   
+  .resume__downloadLink {
+    font-size: 4vw;
+  }
+
   .resume__wrapper {
     width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .resume__title {
+    margin-top: 5px;
+    font-size: 5vw;
+  }
+  
+  .resume__downloadLink {
+    font-size: 5vw;
   }
 }
 
